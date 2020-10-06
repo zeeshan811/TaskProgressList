@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.ControllerFiles.CodeReview"
+            prefHeight="400.0" prefWidth="600.0">
+    <Label text="Welcome to the CodeReview cert progress list" GridPane.rowIndex="0"> </Label>
+    <Button onAction="#querCodeReviewTable" fx:id="queryCodeReview" text="Query the CodeReview Cert progress" GridPane.rowIndex="1"></Button>
+    <Button text ="CodeReviewWeek1" GridPane.rowIndex="2"></Button>
+    <Button text="CodeReviewWeek2" GridPane.rowIndex="3"></Button>
+    <Button text="CodeReviewWeek3" GridPane.rowIndex="4"></Button>
+    <Button text="CodeReviewWeek4" GridPane.rowIndex="5"></Button>
+    <Button text="Exit" GridPane.rowIndex="6"></Button>
+
+</GridPane>

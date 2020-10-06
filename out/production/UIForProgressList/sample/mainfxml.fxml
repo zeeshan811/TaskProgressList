@@ -1,0 +1,14 @@
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<GridPane fx:controller="sample.ControllerFiles.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="15" vgap="10">
+    <Label text="Welcome to the progress list" GridPane.rowIndex="0"> </Label>
+    <Button fx:id="AWSButton" text="AWSCert" GridPane.rowIndex="1" onAction="#OnButtonClickAWS"></Button>
+    <Button text ="Java" GridPane.rowIndex="2" onAction="#OnButtonClickJava"></Button>
+    <Button text="JSHTMLCSS" GridPane.rowIndex="3" onAction="#OnButtonClickJSHTMLCSS"></Button>
+    <Button text="Pen Testing" GridPane.rowIndex="4" onAction="#OnButtonClickPenTesting"></Button>
+    <Button text="CodeReview" GridPane.rowIndex="5" onAction="#OnButtonClickCodeReview"></Button>
+    <Button text="Exit" GridPane.rowIndex="6"></Button>
+</GridPane>

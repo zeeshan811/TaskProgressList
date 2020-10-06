@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.ControllerFiles.JavaController"
+            prefHeight="400.0" prefWidth="600.0">
+    <Label text="Welcome to the Java cert progress list" GridPane.rowIndex="0"> </Label>
+    <Button onAction="#querJavaTable" fx:id="queryJava" text="Query the Java Cert progress" GridPane.rowIndex="1"></Button>
+    <Button onAction="#JavaWeek1Enter" text ="JavaWeek1" GridPane.rowIndex="2"></Button>
+    <Button onAction="#JavaWeek2Enter" text="JavaWeek2" GridPane.rowIndex="3"></Button>
+    <Button onAction="#JavaWeek3Enter" text="JavaWeek3" GridPane.rowIndex="4"></Button>
+    <Button onAction="#JavaWeek4Enter" text="JavaWeek4" GridPane.rowIndex="5"></Button>
+    <Button text="Exit" GridPane.rowIndex="6"></Button>
+
+
+</GridPane>

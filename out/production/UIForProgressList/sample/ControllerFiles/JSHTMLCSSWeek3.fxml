@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="sample.ControllerFiles.JSHTMLCSSWeek"
+          prefHeight="400.0" prefWidth="600.0">
+    <Label text="Welcome to the Java cert Week3 progress list" GridPane.rowIndex="0"> </Label>
+    <Label text="Hours worked for Sunday" GridPane.rowIndex="1"  GridPane.columnIndex="0"></Label>
+    <TextArea fx:id="sundayHours3" GridPane.rowIndex="1" GridPane.columnIndex="1"></TextArea>
+    <Button onAction="#sundayButton3" text="Ok" GridPane.rowIndex="1" GridPane.columnIndex="2"></Button>
+    <Label text ="Hours worked for Monday" GridPane.rowIndex="2" GridPane.columnIndex="0"></Label>
+    <TextArea fx:id="mondayHours3" GridPane.rowIndex="2" GridPane.columnIndex="1"></TextArea>
+    <Button onAction="#mondayButton3" text="Ok" GridPane.rowIndex="2" GridPane.columnIndex="2"></Button>
+    <Label text="Hours worked for Tuesday" GridPane.rowIndex="3" GridPane.columnIndex="0"></Label>
+    <TextArea fx:id="tuesdayHours3" GridPane.rowIndex="3" GridPane.columnIndex="1"></TextArea>
+    <Button onAction="#tuesdayButton3" text="Ok" GridPane.rowIndex="3" GridPane.columnIndex="2"></Button>
+    <Label text="Hours worked for Wednesday" GridPane.rowIndex="4" GridPane.columnIndex="0"></Label>
+    <TextArea fx:id="wednesdayHours3" GridPane.rowIndex="4" GridPane.columnIndex="1"></TextArea>
+    <Button onAction="#wednesdayButton3" text="Ok" GridPane.rowIndex="4" GridPane.columnIndex="2"></Button>
+    <Label text="Hours worked for Thursday" GridPane.rowIndex="5" GridPane.columnIndex="0"></Label>
+    <TextArea fx:id="thursdayHours3" GridPane.rowIndex="5" GridPane.columnIndex="1"></TextArea>
+    <Button onAction="#thursdayButton3" text="Ok" GridPane.rowIndex="5" GridPane.columnIndex="2"></Button>
+    <Label text="Hours worked for Friday" GridPane.rowIndex="6" GridPane.columnIndex="0"></Label>
+    <TextArea fx:id="fridayHours3" GridPane.rowIndex="6" GridPane.columnIndex="1" ></TextArea>
+    <Button onAction="#fridayButton3" text="Ok" GridPane.rowIndex="6" GridPane.columnIndex="2"></Button>
+    <Label text="Hours worked for Saturday" GridPane.rowIndex="7" GridPane.columnIndex="0"></Label>
+    <TextArea fx:id="saturdayHours3" GridPane.rowIndex="7" GridPane.columnIndex="1"></TextArea>
+    <Button onAction="#saturdayButton3" text="Ok" GridPane.rowIndex="7" GridPane.columnIndex="2"></Button>
+    <Button text="Exit" GridPane.rowIndex="8"></Button>
+</GridPane>
